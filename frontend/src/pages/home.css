@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "star";
+    src: url("../assets/STJEDISE.TTF");
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../assets/background.jpg");
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    padding: 10rem;
+    align-items: center;
+}
+.inele{
+    margin-left: 10rem;
+}
+.headingg{
+    font-family: "star";
+}
+.mainnn{
+    background-image: url("../assets/wall.jpg");
+    background-size: cover;
+}
+.mainn{
+    background-image: url("../assets/wallpaperflare.com_wallpaper.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.box button{
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+    border-radius: 10px;
+}
+
+.login{
+    background-image: url("../assets/backlogin.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:20px;
+    background-color: transparent;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+
+.box h1{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
